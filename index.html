@@ -46,7 +46,31 @@
   <main>
     <p> name is Kira, and I am a tech worker.</p>
     </p>If you are interested in learning more about me, please feel free to contact me at v1rt@protonmail.com.</p>
-    <img src="boys.jpeg" alt="b-boys,, p-prettyyy">
+    <script>
+  function resizeImage() {
+    var image = document.getElementById("myImage");
+    var screenWidth = window.innerWidth;
+    var screenHeight = window.innerHeight;
+    image.style.width = screenWidth + "px";
+    image.style.height = screenHeight + "px";
+  }
+
+  function changeTextColor() {
+    var text = document.getElementsByTagName("p");
+    for (var i = 0; i < text.length; i++) {
+      text[i].style.color = "white";
+    }
+  }
+
+  window.onload = function() {
+    resizeImage();
+    changeTextColor();
+  };
+</script>
+
+<img id="myImage" src="boys.jpeg" alt="b-boys,, p-prettyyy">
+<p>meow!!.</p>
+
   </main>
   <footer>
     <p style="animation: color-change 5s linear infinite;
