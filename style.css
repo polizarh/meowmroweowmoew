@@ -1,0 +1,72 @@
+/*
+ * This is a sample CSS file that you can use to create a nice looking UX design for your GitHub Pages.
+ *
+ * The following code is just a starting point, and you can customize it to fit your own needs.
+ */
+
+/*
+ * Global styles
+ */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000088;
+  text-decoration: underline;
+}
+
+/*
+ * Header styles
+ */
+
+.header {
+  background-color: #000088;
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+/*
+ * Main content styles
+ */
+
+.main {
+  padding: 20px;
+}
+
+.main p {
+  margin-bottom: 10px;
+}
+
+/*
+ * Footer styles
+ */
+
+.footer {
+  background-color: #000088;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer p {
+  text-align: center;
+}
