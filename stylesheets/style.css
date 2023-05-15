@@ -20,53 +20,27 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin-top: 0;
 }
-
-a {
-  color: #000;
-  text-decoration: none;
+body {
+  background-image: linear-gradient(to right, #ff00af 0%, #d3143b 25%, #ffe4e1 50%, #d3143b 75%, #ff00af 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: gradient 10s linear infinite;
 }
 
-a:hover {
-  color: #000088;
-  text-decoration: underline;
+p {
+  color: white;
 }
 
-/*
- * Header styles
- */
-
-.header {
-  background-color: #000088;
-  color: #fff;
-  padding: 20px;
+header {
+  background-color: #ffe4e1;
+  padding: 10px;
 }
 
-.header h1 {
-  font-size: 24px;
+footer {
+  background-color: #d3143b;
+  padding: 10px;
 }
 
-/*
- * Main content styles
- */
-
-.main {
-  padding: 20px;
-}
-
-.main p {
-  margin-bottom: 10px;
-}
-
-/*
- * Footer styles
- */
-
-.footer {
-  background-color: #000088;
-  color: #fff;
-  padding: 20px;
-}
-
-.footer p {
-  text-align: center;
+img {
+  width: 100%;
 }
